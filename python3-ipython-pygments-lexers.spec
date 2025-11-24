@@ -1,4 +1,5 @@
 Summary:	A Pygments plugin for IPython code & console sessions
+Summary(pl.UTF-8):	Wtyczka Pygments dla kodu IPythona i sesji konsoli
 Name:		python3-ipython-pygments-lexers
 Version:	1.1.1
 Release:	1
@@ -21,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A Pygments plugin for IPython code & console sessions.
+
+%description -l pl.UTF-8
+Wtyczka Pygments dla kodu IPythona i sesji konsoli.
 
 %prep
 %setup -q -n ipython_pygments_lexers-%{version}
